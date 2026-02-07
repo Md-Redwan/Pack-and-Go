@@ -7,17 +7,17 @@ import { CiSearch } from "react-icons/ci";
 
 const Hero = () => {
   return (
-    <div className="lg:bg-[url(assets/heroImg.png)] bg-center bg-cover bg-no-repeat px-5 lg:px-0">
-      <div className="container font-poppins pb-33.75">
+    <section className="lg:bg-[url(assets/heroImg.png)] bg-center bg-cover bg-no-repeat px-5 lg:px-0">
+      <div className="container font-poppins pb-20 lg:pb-33.75">
         <h1 className="w-75 lg:w-143.25 font-semibold pt-15 lg:pt-33.75 text-[40px] lg:text-[65px] leading-15 lg:leading-20">
             Start Exploring to Find Inner Peace by Traveling
         </h1>
-        <p className="lg:w-149.25 leading-7.5 text-[#616161] mt-7.5 text-xl">
+        <p className="lg:w-149.25 leading-7.5 text-secondary mt-7.5 text-xl">
             Lost yourself with Vacation and Travel into the place that you never visit before. We have thousand places in our database for you.
         </p>
         <button className="font-semibold py-4 px-8.75 rounded-[17px] bg-primary text-white cursor-pointer mt-10">Discover Now</button>
 
-        <div className="bg-white p-6 lg:w-fit mt-21 flex flex-col lg:flex-row gap-15 items-center justify-center rounded-lg shadow-xl">
+        <div className="bg-white p-6 lg:w-fit mt-21 flex flex-col lg:flex-row gap-15 lg:items-center justify-center rounded-lg shadow-xl">
           <div>
             <div className="flex items-center gap-3.5 font-bold text-xl pb-2">
               <IoLocationOutline className="text-primary"/>
@@ -43,12 +43,13 @@ const Hero = () => {
             <input type="text" placeholder="How many people?" className="ml-8.5"/>
           </div>
           
-          <button className="py-7.5 px-20 lg:p-7.5 bg-primary text-[22px] text-white rounded-lg cursor-pointer">
-            <CiSearch />
+          <button className="py-7.5 px-20 lg:p-7.5 bg-primary text-white rounded-lg cursor-pointer flex items-center justify-center gap-3">
+            <h2 className="lg:hidden text-[22px]">Search</h2>
+            <CiSearch className="text-[30px] lg:text-[22px]"/>
           </button>
         </div> 
       </div>
-    </div>
+    </section>
   );
 };
 
