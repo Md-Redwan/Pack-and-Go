@@ -9,7 +9,7 @@ import BenefitCardImg6 from "../assets/BenefitCardImg6.png";
 
 const TravelBenefit = () => {
   return (
-    <div className="container font-poppins pt-20 lg:pt-37.5 pb-10">
+    <div className="container font-poppins pt-20 lg:pt-37.5">
       <h2 className="font-semibold text-[30px] lg:text-[40px] text-center">
         Travel Benefit For User
       </h2>
