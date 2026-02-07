@@ -17,3 +17,7 @@
 .container{
     margin: auto;
 }
+
+input{
+  outline: none !important;
+}
