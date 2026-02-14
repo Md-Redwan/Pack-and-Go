@@ -6,6 +6,10 @@ import { FiArrowRight } from "react-icons/fi";
 import { FiArrowLeft } from "react-icons/fi";
 import PopularDestinationCard from './PopularDestinationCard'
 import PopularCardImg1 from '../assets/PopularCardImg1.png'
+import PopularCardImg2 from '../assets/PopularCardImg2.png'
+import PopularCardImg3 from '../assets/PopularCardImg3.png'
+import PopularCardImg4 from '../assets/PopularCardImg4.png'
+import PopularCardImg5 from '../assets/PopularCardImg5.png'
 
 const PopularDestination = () => {
 
@@ -95,16 +99,19 @@ function SamplePrevArrow(props) {
         <PopularDestinationCard image={PopularCardImg1} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
       </div>
       <div>
-        <PopularDestinationCard image={PopularCardImg1} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
+        <PopularDestinationCard image={PopularCardImg2} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
       </div>
       <div>
-        <PopularDestinationCard image={PopularCardImg1} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
+        <PopularDestinationCard image={PopularCardImg3} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
       </div>
       <div>
-        <PopularDestinationCard image={PopularCardImg1} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
+        <PopularDestinationCard image={PopularCardImg4} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
       </div>
       <div>
-        <PopularDestinationCard image={PopularCardImg1} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
+        <PopularDestinationCard image={PopularCardImg5} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
+      </div>
+      <div>
+        <PopularDestinationCard image={PopularCardImg3} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
       </div>
 
     </Slider>
