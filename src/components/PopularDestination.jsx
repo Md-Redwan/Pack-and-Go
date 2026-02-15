@@ -79,9 +79,9 @@ function SamplePrevArrow(props) {
   };
 
   return (
-    <div>
+    <div className='pb-37.5'>
 
-    <div className="container font-poppins pt-20 lg:pt-37.5 pb-10">
+    <div className="container font-poppins pt-20 lg:pt-37.5 pb-10 ">
       <h2 className="font-semibold text-[30px] lg:text-[40px] text-center">
         Popular Destination
       </h2>
@@ -99,16 +99,16 @@ function SamplePrevArrow(props) {
         <PopularDestinationCard image={PopularCardImg1} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
       </div>
       <div>
-        <PopularDestinationCard image={PopularCardImg2} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
+        <PopularDestinationCard image={PopularCardImg2} heading="Venice, Italy" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
       </div>
       <div>
-        <PopularDestinationCard image={PopularCardImg3} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
+        <PopularDestinationCard image={PopularCardImg3} heading="Paris, France" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
       </div>
       <div>
-        <PopularDestinationCard image={PopularCardImg4} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
+        <PopularDestinationCard image={PopularCardImg4} heading="Santorini, Greece" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
       </div>
       <div>
-        <PopularDestinationCard image={PopularCardImg5} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
+        <PopularDestinationCard image={PopularCardImg5} heading="Lake Thun, Switzerland" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
       </div>
       <div>
         <PopularDestinationCard image={PopularCardImg3} heading="Mount Agung, Bali" description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam" price="150"/>
