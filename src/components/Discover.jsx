@@ -1,5 +1,6 @@
 import React from 'react'
 import { IoCheckmark } from "react-icons/io5";
+import DiscoverCard from './DiscoverCard';
 
 
 const Discover = () => {
@@ -28,7 +29,11 @@ const Discover = () => {
                 Discover Place
             </button>
         </div>
-        <div className='w-[50%]'></div>
+        <div className='w-[50%]'>
+          <div>
+            <DiscoverCard/>
+          </div>
+        </div>
       </div>
     </div>
   )
