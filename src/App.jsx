@@ -1,4 +1,5 @@
 import './App.css'
+import ChooseUs from './components/ChooseUs'
 import Discover from './components/Discover'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
@@ -14,6 +15,7 @@ function App() {
       <TravelBenefit/>
       <PopularDestination/>
       <Discover/>
+      <ChooseUs/>
     </>
   )
 }
