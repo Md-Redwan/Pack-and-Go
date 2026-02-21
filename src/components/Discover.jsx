@@ -37,7 +37,7 @@ const Discover = () => {
             </div>
         </div>
         <div className='w-auto lg:w-[50%]'>
-          <div className='flex flex-wrap items-center justify-center gap-7.5'>
+          <div className='flex flex-wrap items-center justify-center lg:justify-end gap-7.5'>
             <DiscoverCard cardIcon={<FaUser/>} cardPrice="500k+" cardTitle="Satisfied Clients"/>
             <DiscoverCard cardIcon={<ImTrophy/>} cardPrice="250+" cardTitle="Active Achieve"/>
             <DiscoverCard cardIcon={<HiUserGroup/>} cardPrice="15k+" cardTitle="Active Members"/>
