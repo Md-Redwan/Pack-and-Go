@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import PopularDestination from './components/PopularDestination'
 import TravelBenefit from './components/TravelBenefit'
+import TopDestination from './components/TopDestination'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <PopularDestination/>
       <Discover/>
       <ChooseUs/>
+      <TopDestination/>
     </>
   )
 }
