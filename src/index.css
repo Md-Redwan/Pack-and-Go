@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @theme {
@@ -11,7 +13,7 @@
   --color-primary: #007F5F;
   --color-secondary: #616161;
   --font-poppins: "Poppins", sans-serif;
-  --shadow-rounded: 0 0px 30px rgba(0, 0, 0, 0.25); 
+  --shadow-rounded: 0 0px 30px rgba(0, 0, 0, 0.25);
 }
 
 .container{
@@ -21,3 +23,44 @@
 input{
   outline: none !important;
 }
+
+/* Choose Us CSS Start */
+
+.dark\:focus\:ring-gray-800 {
+  --tw-ring-color: none !important;
+}
+.dark\:hover\:bg-gray-800 {
+  background-color: white !important;
+  color: black !important;
+}
+.divide-y {
+  border-color: none !important;
+}
+
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.dark\:hover\:bg-gray-800 {
+    @media (prefers-color-scheme: dark) {
+        &:hover {
+            background-color: white !important; 
+            color: black !important; 
+        }
+    }
+}
+
+
+.dark\:bg-gray-900 {
+  background-color: white !important;
+}
+
+.border-gray-200 {
+    border-color: var(--color-black);
+}
+
+.border {
+    border-style: var(--tw-border-style);
+    border-width: 1px !important;
+}
+/* Choose Us CSS end */
